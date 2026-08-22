@@ -1,0 +1,21 @@
+# Vercel Deployment Ignore Rules
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.git/
+.gitignore
+
+# Local storage and test data
+shared_storage/
+test_storage/
+test_sharebox.py
+seed_sample_data.py
+verify-build.py
+verify-build.bat
+verify-build.sh
+
+# Local startup scripts
+run.bat
+run.sh
